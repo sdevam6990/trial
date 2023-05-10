@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        
+        * { 
+            box-sizing: border-box;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        [class*="col-"]{
+            padding: 10px;
+            float: left;
+
+        }
+        .header
+        {   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(0, 0, 0);
+            background-color: burlywood;
+            padding: 10px;
+        }
+        .menu{
+            margin: 0px;
+        
+        }
+        .menu ul{
+            color: white;
+            list-style-type: none;
+            padding: 0px;
+        }
+        .menu li{
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(33, 143, 217);
+            box-shadow: 1px 1px 3px black;
+        }
+        .menu li:hover{
+            background-color: rgb(208, 159, 96);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Chania</h1>
+    </div>
+    <div class="row">
+        <div class="menu col-3">
+            <ul>
+                <li>The Flight</li>
+                <li>The City</li>
+                <li>The Island</li>
+                <li>The Food</li>
+            </ul>
+        </div>
+        
+        
+      
+        <div class="para col-9" >
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero rerum nesciunt assumenda aliquid distinctio. Illo quaerat, vel pariatur sequi adipisci, fugit similique id, explicabo ducimus rerum ipsam sunt voluptates quasi!</p>
+        </div>
+    </div>
+        
+        
+    
+    
+</body>
+</html>
